@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: poppins,sans-serif;
 }
 
 .main{
@@ -10,3 +11,23 @@
     background-size: cover;
     height: 100vh;
 }
+
+ .navbar{
+    width: 1200px;
+    height: 75Px;
+    margin: auto;
+ }
+
+ .icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+ }
+
+ .logo{
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+    
+ }
