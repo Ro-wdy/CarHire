@@ -6,7 +6,7 @@
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%) ,url(car.jpeg);
+    background: linear-gradient(to top, rgba(69, 74, 83, 0.5) 0%, rgba(18, 18, 19, 0.5) 100%) ,url(car.jpeg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -20,7 +20,7 @@
     background-color: #fff;
     display:flex;
     align-items: center;
-    padding: 10px 20px;
+    padding: 0;
     justify-content: space-between;
 
     
@@ -37,7 +37,7 @@
     padding-left: 35px;
     padding-top: 10px;
     float: left;
-    color: #000;
+    color: #0e309e;
     
  }
 
@@ -52,19 +52,39 @@
    display: flex;
    justify-content: center;
    align-items: center;
+  
+  
 }
 
 ul li{
    list-style: none;
-   margin-top: 27px;
+   margin-top: 0px;
    margin-right: 62px;
-   padding-top: 30px;
+   padding-top: 50px;
    font-size: 18px;
+   flex: 1;
+   display: flex;
+   height: 100%;
+   display: flex;
+   
+   align-items: center;
+   justify-content: center;
+   transition: background-color 0.3s ease-in-out;
+}
+ 
+ul li:hover{
+   background-color: #0e309e;
+  
 }
 
 ul li a{
   text-decoration: none;
+  display: block;
   color: #000;
   font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
 
+ul li:hover a{
+   color: #fff;
 }
