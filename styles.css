@@ -6,10 +6,7 @@
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(69, 74, 83, 0.5) 0%, rgba(18, 18, 19, 0.5) 100%) ,url(car.jpeg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
+    margin: auto;
 }
 
  .navbar{
@@ -52,8 +49,6 @@
    display: flex;
    justify-content: center;
    align-items: center;
-  
-  
 }
 
 ul li{
@@ -72,9 +67,12 @@ ul li{
    transition: background-color 0.3s ease-in-out;
 }
  
-ul li:hover{
+ li:hover{
    background-color: #0e309e;
-  
+}
+
+li.acive a{
+   background-color: #0e309e;
 }
 
 ul li a{
@@ -87,4 +85,11 @@ ul li a{
 
 ul li:hover a{
    color: #fff;
+}
+
+.Home{
+   background: linear-gradient(to top, rgba(69, 74, 83, 0.5) 0%, rgba(18, 18, 19, 0.5) 100%) ,url(car.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
