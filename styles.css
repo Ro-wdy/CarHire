@@ -1,95 +1,95 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: poppins,sans-serif;
+   margin: 0;
+   padding: 0;
+   font-family: poppins, sans-serif;
+   box-sizing: border-box;
 }
 
 .main{
-    width: 100%;
-    margin: auto;
+   width: 100%;
+   margin: auto;
 }
 
- .navbar{
-    width: 100%;
-    height: 60Px;
-    position: sticky;
-    z-index: 100;
-    background-color: #fff;
-    display:flex;
-    align-items: center;
-    padding: 0;
-    justify-content: space-between;
+.navbar{
+   width: 100%;
+   height: 60px;
+   position: sticky;
+   z-index: 100;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
 
-    
- }
+.icon{
+   width: 100px;
+   height: 70px;
+}
 
- .icon{
-    width: 100px;
-    float: left;
-    height: 70px;
- }
+.logo{
+   font-size: 25px;
+   padding-left: 35px;
+   padding-top: 10px;
+   color: #0e309e;
+}
 
- .logo{
-    font-size: 25px;
-    padding-left: 35px;
-    padding-top: 10px;
-    float: left;
-    color: #0e309e;
-    
- }
-
- .menu{
-   width: 400px;
-   float: right;
-   height: 150px;
- }
-
- ul{
-   float: right;
+.menu ul{
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
-ul li{
+.menu ul li{
    list-style: none;
-   margin-top: 0px;
-   margin-right: 62px;
-   padding-top: 50px;
+   margin-right: 40px;
    font-size: 18px;
-   flex: 1;
-   display: flex;
-   height: 100%;
-   display: flex;
-   
-   align-items: center;
-   justify-content: center;
-   transition: background-color 0.3s ease-in-out;
 }
- 
- li:hover{
+
+.menu ul li a{
+   text-decoration: none;
+   color: #000;
+   font-weight: bold;
+   transition: color 0.3s ease-in-out;
+}
+
+.menu ul li:hover a{
    background-color: #0e309e;
-}
-
-li.acive a{
-   background-color: #0e309e;
-}
-
-ul li a{
-  text-decoration: none;
-  display: block;
-  color: #000;
-  font-weight: bold;
-  transition: color 0.3s ease-in-out;
-}
-
-ul li:hover a{
    color: #fff;
 }
 
 .Home{
    background: linear-gradient(to top, rgba(69, 74, 83, 0.5) 0%, rgba(18, 18, 19, 0.5) 100%) ,url(car.jpeg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.home-content {
+   color: white;
+   max-width: 600px;
+}
+
+.home-content h1{
+   font-size: 50px;
+   margin-bottom: 5px;
+   font-weight: bold;
+}
+
+.home-content h4{
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+.btn{
+   display: inline-block;
+   background: #0e309e;
+   color: white;
+   padding: 15px 20px;
+   text-decoration: none;
+   font-size: 25px;
+   border-radius: 5px;
 }
