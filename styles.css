@@ -175,3 +175,24 @@
    text-decoration: underline;
    color: #000;
 }
+
+.card-container{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 20px;
+}
+
+.card{
+   width: 670px;
+   border-radius: 30px;
+   overflow: hidden;
+   margin: 5px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/*
+.card img{
+   width: 100%;
+   height: auto;
+   
+}*/
