@@ -233,7 +233,7 @@
    color: #fff;
 }
 
-footer{
+.footer{
    width: 100px;
    position: absolute;
    bottom: 0;
@@ -243,4 +243,48 @@ footer{
    border-top-left-radius: 125px;
    font-size: 13px;
    line-height: 20px;
+}
+
+.row{
+   width: 80%;
+   margin: auto;
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+
+.logo{
+   flex-basis: 25%;
+   padding: 10px
+}
+
+.email-id{
+   width: fit-content;
+   border-bottom: 1px #0e309e;
+   margin: 20x 1;
+}
+
+ul li{
+   list-style: none;
+   margin-bottom: 8px;
+}
+
+ul li a{
+   text-decoration: none;
+}
+
+form{
+   padding-bottom: 18px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 1px solid #fff;
+   margin-bottom: 50px;
+}
+ 
+form input{
+   width: 100%;
+   background: transparent;
+   border: 0;
+   outline: none;
 }
