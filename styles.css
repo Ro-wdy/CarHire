@@ -232,3 +232,15 @@
    border-radius: 10px;
    color: #fff;
 }
+
+footer{
+   width: 100px;
+   position: absolute;
+   bottom: 0;
+   background: linear-gradient(to right, 173, 216, 230, 0.3);
+   color: #fff;
+   padding: 100px 0 30px;
+   border-top-left-radius: 125px;
+   font-size: 13px;
+   line-height: 20px;
+}
