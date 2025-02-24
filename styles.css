@@ -17,6 +17,7 @@
    z-index: 100;
    background-color: #fff;
    display: flex;
+  
    align-items: center;
    justify-content: space-between;
 }
@@ -57,15 +58,16 @@
    color: #fff;
 }
 
-.Home{
+.home{
    background: linear-gradient(to top, rgba(69, 74, 83, 0.5) 0%, rgba(18, 18, 19, 0.5) 100%) ,url(car.jpeg);
-   background-position: center;
    background-size: cover;
    height: 100vh;
    display: flex;
+   background-position: center;
    justify-content: center;
    align-items: center;
    text-align: center;
+   flex-direction: column;
 }
 
 .home-content {
@@ -95,7 +97,7 @@
    border-radius: 5px;
 }
 
-.About {
+.about {
    padding: 30px 5%;
    background-color: #fff;
    text-align: center;
@@ -168,7 +170,7 @@
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.Services{
+.ourservices{
    padding: 30px 3%;
 }
 .service-heading{
@@ -180,12 +182,12 @@
    color: #000;
 }
 
-.Services h4{
+.ourservices h4{
    padding: 5px 10px;
    font-size: 18px;
 }
 
-.Services p{
+.ourservices p{
    padding-left: 15px;
    font-size: 15px;
 }
@@ -207,7 +209,7 @@
    overflow: hidden;
    text-align: center;
    position: relative;
-   padding: 10x;
+   padding: 10px;
    margin: 5px;
    vertical-align: top;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -233,13 +235,14 @@
    color: #fff;
 }
 
-.footer{
-   width: 100px;
-   position: absolute;
+footer{
+   width: 100%;
+   position: relative;
    bottom: 0;
-   background: linear-gradient(to right, 173, 216, 230, 0.3);
+   background: linear-gradient(to right, #173dce, #216be6);
    color: #fff;
-   padding: 100px 0 30px;
+   padding: 50px 0;
+   text-align: center;
    border-top-left-radius: 125px;
    font-size: 13px;
    line-height: 20px;
