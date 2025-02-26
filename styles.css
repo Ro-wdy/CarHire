@@ -53,9 +53,10 @@
    transition: color 0.3s ease-in-out;
 }
 
-.menu ul li:hover a{
+.menu li:hover {
    background-color: #0e309e;
    color: #fff;
+   padding: 10px;
 }
 
 .home{
@@ -201,10 +202,10 @@
 }
 
 .cards{
-   width: 31%;
-   flex: 1 1 30%; 
+   width: 15em;
+   /* flex: 1 1 30%;  */
    box-sizing: border-box;
-   border-radius: 30px;
+   border-radius: 6px;
    display: inline-block;
    overflow: hidden;
    text-align: center;
@@ -225,6 +226,7 @@
    height: 200px;
    object-fit: cover;
    display: block;
+   border-radius: 6px;
    }
 
 .cards .btn{
@@ -239,7 +241,7 @@ footer{
    width: 100%;
    position: relative;
    bottom: 0;
-   background: linear-gradient(to right, #173dce, #216be6);
+   background: linear-gradient(to right, #0d1949, #1a2c49);
    color: #fff;
    padding: 50px 0;
    text-align: center;
@@ -281,8 +283,6 @@ form{
    display: flex;
    align-items: center;
    justify-content: space-between;
-   border-bottom: 1px solid #fff;
-   margin-bottom: 50px;
 }
  
 form input{
@@ -290,4 +290,35 @@ form input{
    background: transparent;
    border: 0;
    outline: none;
+   
+}
+.col form{
+   display: flex;
+   flex-direction: column;
+   line-height: 1.2px;
+   border-bottom: 1px solid #fff;
+}
+
+form input{
+   width: 100%;
+   background: transparent;
+   color: #fff;
+   border: 0;
+   outline: none;
+   margin-bottom: 13px;
+}
+
+form input .fa-solid{
+   font-size: 20px;
+}
+
+form button{
+   background: transparent;
+   outline: none;
+   cursor: pointer;
+}
+
+form button .fa{
+   font-size: 18px;
+   color: #fff;
 }
