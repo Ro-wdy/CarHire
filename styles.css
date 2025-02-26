@@ -1,7 +1,7 @@
 *{
    margin: 0;
    padding: 0;
-   font-family: poppins, sans-serif;
+   font-family: verdanas;
    box-sizing: border-box;
 }
 
@@ -14,10 +14,10 @@
    width: 100%;
    height: 60px;
    position: sticky;
+   top: 0;
    z-index: 100;
    background-color: #fff;
    display: flex;
-  
    align-items: center;
    justify-content: space-between;
 }
@@ -54,9 +54,9 @@
 }
 
 .menu li:hover {
-   background-color: #B9B28A;
+   background-color: #24262b;
    color: #fff;
-   padding: 10px;
+   padding: 22px;
 }
 
 .home{
@@ -88,29 +88,28 @@
    margin-bottom: 20px;
 }
 
-.btn{
+.home .btn{
    display: inline-block;
-   background: #24262b;
-   color: white;
+   background: #504B38;
+   color: #fff;
    padding: 15px 20px;
    text-decoration: none;
-   font-size: 25px;
+   font-size: 20px;
    border-radius: 5px;
 }
 
 .about {
-   padding: 30px 5%;
-   background-color: #fff;
+   padding: 40px 5%;
    text-align: center;
    margin-bottom: 10px;
+   background-color: #EBE5C2;
 }
 
 .about-heading{
-   font-size: 60px;
-   font-weight: bold;
+   font-size: 50px;
+   font-weight: lighter;
    margin: 20px 0;
    text-align: center;
-   text-decoration: underline;
    color: #000;
 }
 
@@ -135,7 +134,7 @@
 .a{
    font-size: 18px;
    line-height: 1.4;
-   font-weight: bold;
+   font-weight: lighter;
    color: #000;
    margin: 10px opx;
 }
@@ -171,15 +170,24 @@
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.about .btn{
+   display: inline-block;
+   background: #24262b;
+   color: #fff;
+   padding: 15px 20px;
+   text-decoration: none;
+   font-size: 20px;
+   border-radius: 5px;
+}
 .ourservices{
    padding: 30px 3%;
+   background-color: #EBE5C2;
 }
 .service-heading{
-   font-size: 60px;
-   font-weight: bold;
-   margin-top: 100px;
+   font-size: 50px;
+   font-weight: lighter;
+   margin-top: 10px;
    text-align: center;
-   text-decoration: underline;
    color: #000;
 }
 
@@ -211,11 +219,9 @@
    text-align: center;
    position: relative;
    padding: 10px;
-
    margin: 5px;
    vertical-align: top;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-   
 }
 
 .cards:hover{
@@ -233,6 +239,8 @@
 .cards .btn{
    display: inline-block;
    padding: 8px;
+   background: #24262b;
+   text-decoration: none;
    font-size: 16px;
    border-radius: 10px;
    color: #fff;
