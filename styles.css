@@ -185,8 +185,7 @@
 }
 .service-heading{
    font-size: 50px;
-   font-weight: lighter;
-   margin-top: 10px;
+   font-weight:                                                                                                                                                                                                                        spx;
    text-align: center;
    color: #000;
 }
@@ -235,16 +234,6 @@
    display: block;
    border-radius: 6px;
    }
-
-.cards .btn{
-   display: inline-block;
-   padding: 8px;
-   background: #24262b;
-   text-decoration: none;
-   font-size: 16px;
-   border-radius: 10px;
-   color: #fff;
-}
 
 .footer{
    width: 100%;
