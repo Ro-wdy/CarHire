@@ -90,7 +90,7 @@
 
 .container{
    width: 100%;
-   padding: 1%;
+   padding: 5px;
    background-position: center;
    display: flex;
    align-items: center;
@@ -112,7 +112,7 @@
    flex: 1;
    border: 0;
    outline: none;
-   padding: 1px;
+   padding: 5px;
    font-size: 17px;
    color: #fff;
 }
@@ -127,6 +127,8 @@
    width: 30px;
    height: 30px;
    cursor: pointer;
+   order: 1;
+   margin-right: 10px;
    border-radius: 50%;
    background-color: #EBE5C2;
 }
@@ -216,41 +218,64 @@
    padding: 30px 3%;
    background-color: #EBE5C2;
 }
-.service-heading{
+
+.ourservices h2{
    font-size: 50px;
-   font-weight:                                                                                                                                                                                                                        spx;
+   font-weight: lighter;   
    text-align: center;
+   padding-bottom: 5px;
    color: #000;
 }
 
-.ourservices h4{
-   padding: 5px 10px;
-   font-size: 18px;
+
+.ss-container {
+   max-width: 1200px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.top-row, .bottom-row {
+   display: flex;
+   gap: 20px;
+}
+.card {
+   background: white;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   text-align: center;
 }
 
-.ourservices p{
-   padding-left: 15px;
-   font-size: 15px;
+.card h3 {
+   margin-top: 0;
+   color: #333;
 }
+
 .service-container {
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
    margin-top: 20px;
    gap: 20px;
+   max-width: 1200px;
+   padding-top: 30px;
    position: relative;
 }
 
 .cards{
    width: 15em;
-   /* flex: 1 1 30%;  */
+  /* flex: 1 1 30%;  */
    box-sizing: border-box;
    border-radius: 6px;
+   max-width: 250px;
    display: inline-block;
+   background: #fff;
    overflow: hidden;
+   align-items: center;
    text-align: center;
    position: relative;
-   padding: 10px;
+   padding-top: 15px;
+   height: 280px;
    margin: 5px;
    vertical-align: top;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -267,6 +292,86 @@
    display: block;
    border-radius: 6px;
    }
+
+.icon-container {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      margin-bottom: 2px; 
+  }
+  .icon {
+   position: relative;
+   font-size: 20px;
+   color: #24262b;
+   cursor: pointer;
+   transition: transform 0.3s ease;
+}
+
+.icon:hover {
+   transform: scale(1.2);
+}
+
+.tooltip {
+   position: absolute;
+   bottom: 100%;
+   left: 50%;
+   transform: translateX(-50%);
+   background: #333;
+   color: #fff;
+   padding: 6px 10px;
+   font-size: 14px;
+   border-radius: 5px;
+   white-space: nowrap;
+   opacity: 0;
+   visibility: hidden;
+   transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+}
+
+.icon:hover .tooltip {
+   opacity: 1;
+   visibility: visible;
+   transform: translateX(-50%) translateY(-5px);
+}
+p {
+   margin-top: 5px;
+}
+
+   .reason {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #f8f9fa;
+      border-left: 5px solid #24262b;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reason h2 {
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      color: #333;
+      margin-bottom: 15px;
+  }
+  
+  .reason ol {
+      padding-left: 20px;
+      list-style: decimal inside;
+  }
+  
+  .reason li {
+      font-size: 18px;
+      color: #000;
+      margin-bottom: 10px;
+      line-height: 1.5;
+      position: relative;
+  }
+  
+  .reason li::marker {
+      font-weight: bold;
+      color: #24262b;
+  }
+  
 
 .footer{
    width: 100%;
@@ -295,26 +400,7 @@
    padding: 0 30px;
 }
 
-.col h3{
-   font-size: 16px;
-   color: #fff;
-   margin-bottom: 18px;
-   font-weight: bold;
-   text-transform: capitalize;
-   position: relative;
-   text-decoration: underline;
-   padding: 2;
-}
 
-.col h3::before{
-   content: '';
-   position: absolute;
-   left: 0;
-   bottom: -10px;
-   background-color: #fff;
-   box-sizing: border-box;
-   width: 50px;
-}
 
 ul li{
    list-style: none;
