@@ -90,7 +90,7 @@
 
 .container{
    width: 100%;
-   padding: 5%;
+   padding: 1%;
    background-position: center;
    display: flex;
    align-items: center;
@@ -99,8 +99,11 @@
 .search-bar{
    width: 100%;
    max-width: 400px;
+   height: 40px;
+   display: flex;
+   justify-content: space-between;
    border-radius: 50px;
-   padding: 10px;
+   padding: 5px 10px;
    align-items: center;
    background: rgba(255, 255, 255,0.2);
 }
@@ -109,15 +112,15 @@
    flex: 1;
    border: 0;
    outline: none;
-   padding: 2px;
-   font-size: 16px;
+   padding: 1px;
+   font-size: 17px;
    color: #fff;
 }
 ::placeholder{
    color: #fff;
 }
 .search-bar button fa-solid  {
-   width: 25px;
+   width: 50px;
 }
 .search-bar button{
    border: 0;
