@@ -136,15 +136,15 @@
 }
 
 .about {
-   padding: 40px 5%;
+   padding: 40px 10%;
    text-align: center;
-   margin-bottom: 10px;
-   background-color: #EBE5C2;
+   height: 100vh;
+   background-size: cover;
 }
 
 .about-heading{
    font-size: 50px;
-   font-weight: lighter;
+   font-weight: 5px;
    margin: 20px 0;
    text-align: center;
    color: #000;
@@ -171,7 +171,6 @@
 .a{
    font-size: 18px;
    line-height: 1.4;
-   font-weight: lighter;
    color: #000;
    margin: 10px opx;
 }
@@ -179,17 +178,8 @@
 .b{
    font-size: 16px;
    line-height: 1.2;
-   font-weight: lighter;
    color: #000;
    margin: 10px 0px;
-}
-
-.c{
-   font-size: 17px;
-   line-height: 1.2;
-   font-weight: bold;
-   color: #000;
-   margin: 0px 10px;
 }
 
 .about-image {
@@ -212,20 +202,22 @@
    background: #24262b;
    color: #fff;
    padding: 15px 20px;
+   align-items: center;
+   justify-content: center;
    text-decoration: none;
    font-size: 20px;
    border-radius: 5px;
+   margin: center;
 }
 .ourservices{
    padding: 30px 3%;
-   background-color: #EBE5C2;
+   background-size: cover;
 }
 
 .ourservices h2{
-   font-size: 50px;
-   font-weight: lighter;   
+   font-size: 50px;  
    text-align: center;
-   padding-bottom: 5px;
+   padding-bottom: 15px;
    color: #000;
 }
 
@@ -235,6 +227,7 @@
    display: flex;
    flex-direction: column;
    gap: 20px;
+   padding-top: 10px;
 }
 .top-row, .bottom-row {
    display: flex;
@@ -265,7 +258,7 @@
 }
 
 .cards{
-   width: 15em;
+   width: 30em;
   /* flex: 1 1 30%;  */
    box-sizing: border-box;
    border-radius: 6px;
@@ -277,7 +270,7 @@
    text-align: center;
    position: relative;
    padding-top: 15px;
-   height: 280px;
+   height: 300px;
    margin: 5px;
    vertical-align: top;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
