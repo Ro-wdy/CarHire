@@ -331,7 +331,7 @@
 }
 
 
-   .reason {
+.reason {
       max-width: 800px;
       margin: 40px auto;
       padding: 20px;
@@ -341,7 +341,7 @@
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  .reason h2 {
+.reason h2 {
       font-size: 24px;
       font-weight: bold;
       text-align: center;
@@ -349,12 +349,12 @@
       margin-bottom: 15px;
   }
   
-  .reason ol {
+.reason ol {
       padding-left: 20px;
       list-style: decimal inside;
   }
   
-  .reason li {
+.reason li {
       font-size: 18px;
       color: #000;
       margin-bottom: 10px;
@@ -362,12 +362,67 @@
       position: relative;
   }
   
-  .reason li::marker {
+.reason li::marker {
       font-weight: bold;
       color: #24262b;
   }
-  
 
+.form-container{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.details{
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   gap: 15px;
+}
+.details h2{
+   font-weight: 800;
+   font-size: 45px;
+   margin-bottom: 5px;
+   padding: 0;
+}
+.details hr{
+   width: 400px;
+   height: 5px;
+   border-radius: 10px;
+   margin-bottom: 2px;
+}
+.feedback-details{
+   width: 400px;
+   height: 30px;
+ 
+   padding-left: 20px;
+   color: #000;
+   border-radius: 50px;
+   font-weight: 550;
+}
+.feedback-details:focus{
+   border: 2px solid #24262b;
+}
+.details button{
+   display: flex;
+   align-items: center;
+   padding: 15px 30px;
+   font-size: 16px;
+   gap: 10px;
+   border-radius: 50px;
+   background: linear-gradient(270deg, #24262b, #333);
+   cursor: pointer;
+}
+.feedback-details::placeholder {
+   color: gray; 
+   opacity: 1;
+}
+.details textarea {
+   height: 140px;
+   padding-top: 10px;
+   border-radius: 15px;
+}
 .footer{
    width: 100%;
    position: relative;
@@ -460,20 +515,6 @@ input {
    align-items: center;
    gap: 10px;
 }
-button {
-   width: 40%;
-   background-color: #504B38;
-   color: white;
-   border: none;
-   font-size: 10px;
-   padding: 3px;
-   border-radius: 30px;
-   cursor: pointer;
-}
-button i {
-   font-size: 16px;
-}
- 
 
 hr{
    width: 90%;
