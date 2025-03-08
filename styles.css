@@ -33,13 +33,11 @@
    list-style: none;
 }
 
-
 .menu ul li a{
    text-decoration: none;
    color: #000;
    transition: color 0.3s ease-in-out;
 }
-
 
 .home{
    background: linear-gradient(to top, rgba(69, 74, 83, 0.5) 0%, rgba(18, 18, 19, 0.5) 100%) ,url(assests/car.jpeg);
@@ -379,14 +377,14 @@
 }
 .details textarea {
    height: 140px;
-   padding-top: 10px;
+   padding: 10px;
    border-radius: 15px;
 }
 .footer{
    width: 100%;
    position: relative;
    bottom: 0;
-   background-color: #dfdfe6;
+   background-color: #AFDBF5;
    color: #000;
    padding: 15px;
    font-size: 14px;
