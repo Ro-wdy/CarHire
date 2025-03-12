@@ -1,0 +1,73 @@
+.home{
+    background: linear-gradient(to top, rgba(69, 74, 83, 0.5) 0%, rgba(18, 18, 19, 0.5) 100%) ,url(assests/car.jpeg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+ }
+ 
+ .home-content {
+    color: white;
+    max-width: 600px;
+ }
+ 
+ .home-content h1{
+    font-size: 50px;
+    margin-bottom: 5px;
+    font-weight: bold;
+ }
+ 
+ .home-content h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+ }
+ 
+ .search-container{
+    width: 100%;
+    padding: 5px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .search-bar{
+    width: 80%;
+    max-width: 400px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 5px 10px;
+    align-items: center;
+    background: rgba(255, 255, 255,0.2);
+ }
+ .search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 5px;
+    font-size: 17px;
+    color: #fff;
+ }
+ ::placeholder{
+    color: #fff;
+ }
+ .search-bar button fa-solid  {
+    width: 50px;
+ }
+ .search-bar button{
+    border: 0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    order: 1;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #EBE5C2;
+ }
