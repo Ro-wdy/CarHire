@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form</title>
+    <link rel="stylesheet" href="booking-styles.css">
+</head>
+<body>
+    <section id="book" class="book">
+        <strong>Travel</strong><span>safaris</span>
+        <h1>Book Now</h1>
+        <div class="book-container">
+            <form action="thankyou.html" method="GET">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="name@example.com">
+
+            <label for="date">Select Your Expected Start Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="date">Select Your Expected End Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="car-type"> Car Type:</label>
+            <select id="car-type" name="car-type" required>
+                <option value="" disabled selected>Choose a car type</option>
+                <option value="sedan">Sedan</option>
+                <option value="suv">SUV</option>
+                <option value="truck">Truck</option>
+                <option value="saloon">Saloon</option>
+                <option value="CX-5">CX-5</option>
+                <option value="Toyota Noah">Toyota Noah</option>
+                <option value="transporter">Transporter</option>
+                <option value="safari">Safari</option>
+            </select>
+
+            <label>Chauffeur Driven:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="chauffeur" value="yes" required><span>Yes</span> </label>
+                <label><input type="radio" name="chauffeur" value="no" required> <span> No</span> </label>
+            </div>
+
+            <textarea name="additional-comments" placeholder="Additional comments"></textarea>
+
+            <button type="submit">Submit</button>
+         </form>
+
+        </div>
+    </section>  
+</body>
+</html>
