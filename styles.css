@@ -41,25 +41,59 @@
 
 .ourservices{
    padding: 30px 3%;
-   background-size: cover;
 }
 
 .ourservices h2{
    font-size: 50px;  
    text-align: center;
    font-weight: 500;
-   padding-bottom: 15px;
+   padding: 15px;
    color: #000;
 }
 
-
-@media(max-width: 767px){
-   .col{
-      width: 50%;
-      margin-bottom: 30px;   }
+@media screen and (max-width: 768px) {
+   .btn {
+      width: 80%; 
+      max-width: 250px;
+      font-size: 16px;
+      padding: 10px;
+      margin: 20px auto; 
+   }
 }
 
-@media(max-width: 767px){
-   .col{
-      width: 50%;}
+.ss-container {
+   max-width: 1200px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   padding-top: 10px;
+}
+
+.top-row, .bottom-row {
+   display: flex;
+   gap: 20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+   .top-row, .bottom-row {
+       flex-wrap: wrap;
+       justify-content: center;
    }
+
+   .card {
+       width: 45%; 
+   }
+}
+
+
+@media screen and (max-width: 768px) {
+   .top-row, .bottom-row {
+       flex-direction: column; 
+       align-items: center;
+   }
+
+   .card {
+       width: 90%; 
+   }
+}
