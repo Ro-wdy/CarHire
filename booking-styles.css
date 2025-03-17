@@ -16,6 +16,7 @@
 
  .book h1{
     font-size: 35px;
+    margin-bottom: 45px;
  }
   
 .book strong{
@@ -60,16 +61,24 @@ select {
 }
 .radio-group {
     display: flex;
-    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.radio {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 .book-container textarea {
-    height: 100px;
+    height: 120px;
     width: 370px;
     padding: 12px;
     border-radius: 15px;
 }
 
-input, button {
+input{
     width: 100%;
     padding: 5px;
     margin: 10px 0 ;
@@ -78,6 +87,9 @@ input, button {
 }
 
 button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
     background-color: #00308F;
     color: white;
     border: none;
