@@ -316,7 +316,114 @@
    color: #000;
    margin-bottom: 15px;
 }
+/* Styling for form container*/
+.details{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+.details h2{
+   font-weight: 600;
+   font-size: 42px;
+}
+.details hr{
+   width: 400px;
+   height: 4px;
+   margin-bottom: 1px;
+}
+.feedback-details{
+   width: 500px;
+   height: 40px;
+   padding-left: 10px;
+   color: #000;
+   border-radius: 50px;
+   font-weight: 550;
+}
+.feedback-details:focus{
+   border: 2px solid #24262b;
+}
+.details button{
+   align-items: center;
+   padding: 15px;
+   width: 150px;
+   font-size: 18px;
+   gap: 10px;
+   border-radius: 20px;
+   background: linear-gradient(270deg, #00308F, #1a1b64);
+   cursor: pointer;
+}
+.feedback-details::placeholder {
+   color: gray; 
+   opacity: 1;
+}
+.details textarea {
+   height: 160px;
+   padding: 10px;
+   border-radius: 15px;
+}
 
+/*Styling the footer section*/
+.container{
+   max-width: 2500px;
+}
+
+.row{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.col{
+   width: 30%;
+   padding: 0 30px;
+   line-height: 1.6;
+}
+.col h3{
+   font-size: 20px;
+}
+
+ul li{
+   list-style: none;
+   margin-bottom: 5px;
+}
+
+ul li a{
+   text-decoration: none;
+   color: #000;
+}
+
+.social-icons{
+   padding-top: 9px;
+}
+
+.social-icons .fa-brands {
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   text-align: center;
+   line-height: 30px;
+   font-size: 16px;
+   color: #000;
+   background: #fff;
+   cursor: pointer
+}
+
+.social-icons .fa-brands:hover{
+   color: #fff;
+   background: #000;
+}
+
+.underline {
+   width: 60px;
+   height: 2px;
+   background-color: #000;
+   margin-top: 3px;
+}
+
+hr{
+   width: 90%;
+   border-bottom: 1px solid #000;
+   margin: 20px auto;
+}
 
 @media screen and (max-width: 768px) {
    .btn {
