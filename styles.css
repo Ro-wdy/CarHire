@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/*css layouts*/
 *{
    margin: 0;
    padding: 0;
@@ -25,18 +26,22 @@
    padding: 0px 10px;
 }
 
-.menu ul{
+.home{
+   background: linear-gradient(to top, rgba(69, 74, 83, 0.5) 0%, rgba(18, 18, 19, 0.5) 100%) ,url(assests/car.jpeg);
+   background-size: cover;
+   height: 100vh;
    display: flex;
+   background-position: center;
    justify-content: center;
    align-items: center;
-   gap: 18px;
-   list-style: none;
+   text-align: center;
+   flex-direction: column;
 }
-
-.menu ul li a{
-   text-decoration: none;
-   color: #000;
-   transition: color 0.3s ease-in-out;
+.about {
+   padding: 40px 5%;
+   text-align: center;
+   height: 100vh;
+   background-size: cover;
 }
 
 .ourservices{
@@ -51,6 +56,148 @@
    color: #000;
 }
 
+.ss-container {
+   max-width: 1200px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   padding-top: 10px;
+}
+
+.service-container {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 20px;
+   gap: 20px;
+   max-width: 1200px;
+   padding-top: 30px;
+   position: relative;
+}
+
+.reason {
+   max-width: 800px;
+   margin: 40px auto;
+   padding: 20px;
+   background-color: #f8f9fa;
+   border-left: 5px solid #24262b;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.footer{
+   width: 100%;
+   position: relative;
+   bottom: 0;
+   background-color: #f8f9fa;
+   color: #000;
+   padding: 15px;
+   font-size: 14px;
+   line-height: 18px;
+
+}
+/*End of css Layouts*/
+
+/*Styling the nav bar*/
+.menu ul{
+   display: flex;
+   gap: 25px;
+}
+
+.menu ul li a{
+   text-decoration: none;
+   color: #000;
+}
+
+/*Styling the home content*/
+.home-content {
+   color: white;
+   max-width: 600px;
+}
+
+.home-content h1{
+   font-size: 50px;
+   margin-bottom: 5px;
+   font-weight: bold;
+}
+
+.home-content h4{
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+
+.search-container{
+   width: 100%;
+   padding: 5px;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+}
+.search-bar{
+   width: 80%;
+   max-width: 400px;
+   height: 40px;
+   display: flex;
+   border-radius: 50px;
+   padding: 5px 10px;
+   background: rgba(255, 255, 255,0.2);
+}
+.search-bar input{
+   background: transparent;
+   border: 0;
+   outline: none;
+   padding: 5px;
+   font-size: 17px;
+   color: #fff;
+}
+::placeholder{
+   color: #fff;
+}
+.search-bar button fa-solid  {
+   width: 50px;
+}
+.search-bar button{
+   border: 0;
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+   order: 1;
+   border-radius: 50%;
+   background-color: #EBE5C2;
+}
+/* Styling our About content*/
+.about-heading{
+   font-size: 50px;
+   font-weight: 500;   
+   margin-bottom: 20px;
+   text-align: center;
+   color: #000;
+}
+
+.about-container {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;    
+}
+
+.about-text {
+   max-width: 50%;
+   text-align: center; 
+   justify-content: center;
+   padding: 20px;
+   font-size: 18px;
+   line-height: 1.2;
+  
+ 
+}
 @media screen and (max-width: 768px) {
    .btn {
       width: 80%; 

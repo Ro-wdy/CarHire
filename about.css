@@ -1,32 +1,7 @@
-.about {
-    padding: 40px 5%;
-    text-align: center;
-    height: 100vh;
-    background-size: cover;
- }
  
- .about-heading{
-    font-size: 50px;
-    font-weight: 500;   
-    margin: 20px 0;
-    text-align: center;
-    color: #000;
- }
  
- .about-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;    
- }
  
- .about-text {
-    max-width: 50%;
-    text-align: left; 
-    font-size: 18px;
-    line-height: 1.2;
-    margin: 10px 0px;
-    padding: 10px 0px;
- }
+ 
 
  .btn{   
    background: #00308F;
