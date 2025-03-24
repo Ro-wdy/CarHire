@@ -27,7 +27,7 @@
 }
 
 .home{
-   background: linear-gradient(to top, rgba(69, 74, 83, 0.5) 0%, rgba(18, 18, 19, 0.5) 100%) ,url(assests/car.jpeg);
+   background: linear-gradient(to top, rgba(69, 74, 83, 0.5) 0%, rgba(18, 18, 19, 0.5) 100%) ,url(../assests/car.jpeg);
    background-size: cover;
    height: 100vh;
    display: flex;
