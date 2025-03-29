@@ -62,18 +62,21 @@ select {
 .radio-group {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    gap: 10px;
 }
 
 .radio {
-    width: 30%;
+    width: 11%;
+    height: 12px;
     display: flex;
     align-items: center;
     cursor: pointer;
+  
 }
 .book-container textarea {
     height: 120px;
-    width: 370px;
+    margin-top: 7px;
+    width: 410px;
     padding: 12px;
     border-radius: 15px;
 }
@@ -86,11 +89,23 @@ input{
     border-radius: 10px;
 }
 
+.home-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
 button {
     width: 100px;
     height: 40px;
     border-radius: 20px;
     background-color: #00308F;
+    font-size: 16px;
     color: white;
     border: none;
     cursor: pointer;

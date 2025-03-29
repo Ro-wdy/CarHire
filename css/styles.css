@@ -74,7 +74,7 @@
 }
 
 .reason {
-   max-width: 800px;
+   max-width: 900px;
    margin: 100px auto;
    padding: 20px;
    height: 50vh;
@@ -88,7 +88,7 @@
    height: 100vh;
    display: flex;
    align-items: center;
-   justify-content: space-evenly;
+   justify-content: center;   
 }
 
 .footer{
@@ -325,20 +325,19 @@
 }
 .details h2{
    font-weight: 600;
-   font-size: 42px;
+   font-size: 50px;
+   border-bottom: 1px solid #000;
+   margin-bottom: 10px;
 }
-.details hr{
-   width: 400px;
-   height: 4px;
-   margin-bottom: 1px;
-}
+
 .feedback-details{
-   width: 500px;
-   height: 40px;
-   padding-left: 10px;
+   width: 130%;
+   height: 45px;
+   padding: 10px;
    color: #000;
    border-radius: 50px;
    font-weight: 550;
+   font-size: 18px;
 }
 .feedback-details:focus{
    border: 2px solid #24262b;
@@ -347,10 +346,11 @@
    align-items: center;
    padding: 15px;
    width: 150px;
+   color: #fff;
    font-size: 18px;
    gap: 10px;
    border-radius: 20px;
-   background: linear-gradient(270deg, #00308F, #1a1b64);
+   background:#00308F;
    cursor: pointer;
 }
 .feedback-details::placeholder {
