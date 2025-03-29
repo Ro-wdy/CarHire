@@ -75,8 +75,9 @@
 
 .reason {
    max-width: 800px;
-   margin: 50px auto;
+   margin: 100px auto;
    padding: 20px;
+   height: 50vh;
    background-color: #f8f9fa;
    border-left: 5px solid #24262b;
    border-radius: 8px;
